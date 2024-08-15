@@ -1,0 +1,29 @@
+.summaries-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-chart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.summary-chart-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+
+.summary-chart-container .CityWeatherChart {
+    flex: 2;
+    margin-left: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+

@@ -1,0 +1,16 @@
+# Root .gitignore
+
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+client/node_modules/
+server/node_modules/
+
+# Environment variables
+.env
